@@ -1,0 +1,21 @@
+html {
+  box-sizing: border-box;
+}
+
+.navbar {
+  position: fixed; /* Stays in place */
+  top: 0; /* Align to top */
+  left: 0; /* Align to left */
+  width: 100%; /* Full width */
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+  z-index: 1000; /* Keep it above other elements */
+}
+
+body {
+  padding-top: 60px; /* Match navbar height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
